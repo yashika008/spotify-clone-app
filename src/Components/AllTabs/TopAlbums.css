@@ -1,0 +1,43 @@
+:root {
+  --backgroundDark: #191414;
+  --spotifyGreen: #1db954;
+  --textPrimary: white;
+  --textSecondary: rgb(191, 189, 189);
+  --UponHover: rgba(182, 182, 182, 0.695);
+}
+.ThirdTab {
+  width: auto;
+}
+.col-4 {
+  float: left;
+  width: 25%;
+  margin: 45px;
+}
+
+.AlbumCover {
+  border-radius: 50%;
+}
+.TopAlbumsData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.TopAlbumName {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  color: var(--textPrimary);
+}
+.Release {
+  text-align: center;
+  text-decoration: none;
+  font-size: 5px;
+  color: var(--textSecondary);
+}
+img:hover {
+  opacity: 50%;
+}
+img:hover + div {
+  opacity: 50%;
+}

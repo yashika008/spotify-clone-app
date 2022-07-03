@@ -1,0 +1,54 @@
+:root {
+  --backgroundDark: #191414;
+  --spotifyGreen: #1db954;
+  --textPrimary: white;
+  --textSecondary: rgb(191, 189, 189);
+  --UponHover: rgba(182, 182, 182, 0.695);
+}
+.TopSongItem {
+  display: flex;
+  flex-direction: row;
+  column-gap: 78px;
+  flex: 1;
+  text-decoration: none;
+  height: 100px;
+  padding: 10px;
+}
+li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Cover {
+  display: flex;
+  justify-content: top;
+  align-items: top;
+  margin-left: 30px;
+  justify-content: center;
+  vertical-align: middle;
+}
+.col {
+  width: 350px;
+  color: var(--textSecondary);
+}
+.NameAndArtist {
+  display: flex;
+  flex-direction: column;
+  
+}
+.ItemName {
+  color: var(--textPrimary);
+  font-size: 1.1em;
+}
+
+.ItemDuration {
+  color: var(--textSecondary);
+}
+.TopSongItem:hover {
+  background-color: var(--tabBack);
+}
+.TopSongItem:hover > * {
+  background-color: var(--tabBack);
+}
+.TopSongItem:hover > * > * {
+  background-color: var(--tabBack);
+}

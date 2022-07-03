@@ -7,7 +7,7 @@ function Login() {
     <div className="login">
       {/* spotify logo */}
       <h1>SpotiStats</h1>
-      <h2>A spotistats clone designed to analyse and backup your music on spotify!</h2>
+      <h2>A spotistats clone designed to analyse your music on spotify!</h2>
       {/* login with spotify button */}
       <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
     </div>

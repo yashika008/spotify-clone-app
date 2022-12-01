@@ -1,5 +1,5 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotistats-clone.herokuapp.com/#";
 const clientId = "d7d84a117dbc49b58ecceeb1a259e7bf";
 
 const scopes = [

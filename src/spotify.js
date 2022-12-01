@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 const redirectUri = "https://spotistats-clone.herokuapp.com/#";
-const clientId = "d7d84a117dbc49b58ecceeb1a259e7bf";
+const clientId = "27f8114986ee4f91a40e3e606e5aaf34";
 
 const scopes = [
   "user-read-playback-state",
